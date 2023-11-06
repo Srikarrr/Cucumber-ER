@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Practice Suite" duration-ms="1779" started-at="2023-11-01T19:48:09 IST" finished-at="2023-11-01T19:48:10 IST">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testrunner.Smoke@4d1b0d2a]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test name="Test Basics 2" duration-ms="1779" started-at="2023-11-01T19:48:09 IST" finished-at="2023-11-01T19:48:10 IST">
+      <class name="testrunner.Smoke">
+        <test-method status="PASS" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:testrunner.Smoke@4d1b0d2a]" name="setUpClass" is-config="true" duration-ms="777" started-at="2023-11-01T19:48:09 IST" finished-at="2023-11-01T19:48:10 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@6bb75258]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testrunner.Smoke@4d1b0d2a]" name="runScenario" duration-ms="201" started-at="2023-11-01T19:48:10 IST" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-11-01T19:48:10 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["This is Smoke feature"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Smoke Feature"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:testrunner.Smoke@4d1b0d2a]" name="tearDownClass" is-config="true" duration-ms="753" started-at="2023-11-01T19:48:10 IST" finished-at="2023-11-01T19:48:10 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- testrunner.Smoke -->
+    </test> <!-- Test Basics 2 -->
+  </suite> <!-- Practice Suite -->
+</testng-results>
